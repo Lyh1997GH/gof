@@ -6,7 +6,7 @@ package com.gof.iterator;
 public class Test {
 
     public static void main(String[] args) {
-        BookShelf shelf = new BookShelf(10);
+        BookShelf shelf = new BookShelf(64);
         shelf.appendBook(new Book("Around world in 80 Days"));
         shelf.appendBook(new Book("Bible"));
         shelf.appendBook(new Book("Cinderella"));
